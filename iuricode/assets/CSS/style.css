@@ -610,7 +610,6 @@ textarea {
 
     .btnContacto{
     padding: 8px 45px;
-    
     background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
     border-radius: 2rem;
     font-size: medium;
@@ -655,7 +654,7 @@ textarea {
 
     .boxes{
     padding: 0.6em;
-    max-width: 93%;
+    max-width: 90%;
     height: auto;
     }
 
