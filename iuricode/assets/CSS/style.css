@@ -577,7 +577,7 @@ textarea {
     }
 
     #fecharMenu {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-bottom: 0.5em;
         padding: 1em;
         display: block;
@@ -609,9 +609,8 @@ textarea {
     }
 
     .btnContacto{
-    padding: 8px 15px;
-    width: 85%;
-    text-align: center;
+    padding: 8px 45px;
+    
     background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
     border-radius: 2rem;
     font-size: medium;
