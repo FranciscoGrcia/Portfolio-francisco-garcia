@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-fundo-principal: #0b121d;
+    --cor-fundo-secundaria: rgba(19, 30, 48, 0.349);
+    --cor-titulos: #ffb22c;
+    --cor-tercearia: #393E46;
+    --fonte-pricipal: Arial, Helvetica, sans-serif; 
+;
+}
+
+body{
+    font-family: var(--fonte-pricipal);
+    background: var(--cor-fundo-principal);
+    color: #ffffff;
+    margin: auto;
+    line-height: 1.6;
+}
+
+#abrirMenu, #fecharMenu {
+    display: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: var(--cor-titulos);
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.titulo span{
+    color: var(--cor-titulos);
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: var(--cor-fundo-secundaria);
+    height: 80px;
+    box-shadow: 0  1px #ffc8003b;
+}
+
+.logo{
+    color: var(--cor-titulos);
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 20px;
+    font-family: 'poppins';
+}
+
+.logo a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--cor-titulos);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: #ffffff;
+    font-family: 'arial' Helvetica, sans-serif;
+    font-weight: bold;
+    transition: color .3s;
+}
+
+ul li a:hover{
+    color: var(--cor-titulos);
+}
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    height: auto;
+    margin: 50px auto;
+    padding: 0 20px;
+    gap: 40px;
+    min-height: 82vh;
+}
+
+.textoBanner{
+    flex: 1;
+}
+
+.banner h1{
+    color: var(--cor-titulos);
+    font-size: 2.5rem;
+    margin-bottom: 20px; 
+}
+
+.banner h1 span{
+    color: #ffffff;
+    font-size: large;
+}
+
+.banner p{
+    margin: 1.2em 0;
+}
+
+.btnCurriculo,
+.btnContacto {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top: 0.5em;
+    background: var(--cor-titulos);
+    color: #000000;
+    border: 0;
+    border-radius: 6px;
+    font-size: large;
+    font-weight: 400;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+.btnCurriculo:hover {
+    background: #393E46; /* mesma cor do título */
+    color: var(--cor-titulos);
+}
+
+.btnContacto:hover{
+    background: #393E46;
+    color: var(--cor-titulos);
+}
+
+.imgBanner img{
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+.imgBanner img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+
+    }
+}
+
+#servicos{
+    height: auto;
+    margin: 0px auto;
+    padding: 30px 0;
+    text-align: center;
+    background: var(--cor-fundo-secundaria);
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    background: var(--cor-fundo-principal);
+    padding: 0.8em;
+    max-width: 350px;
+    height: 250px;
+    box-shadow: 0 0 8px var(--cor-titulos);
+    border-radius: 10px;
+    transition: transform .3s;
+}
+
+.boxes:hover {
+    transform: translateY(-5px);
+}
+
+
+.boxes i{
+    color: var(--cor-titulos);
+    padding: 10px 0;
+    font-size: 35px;
+}
+
+.tituloBox{
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.boxes p{
+    padding: 10px 0;
+    color: #d7d6d6;
+}
+
+section#sobre{
+    max-width: 1100px;
+    height: auto;
+    margin: auto;
+    padding: 1em;
+}
+
+
+#titulo-sobre span{
+    display: block;
+    font-size: 2.5rem;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.imagemSobre img{
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.sobreText{
+    flex: 1;
+    min-width: 280px;
+}
+
+.sobreText p{
+    line-height: 1.6;
+    padding: 0.40em 0;
+    margin-bottom: 1.5em;
+}
+
+.sociais i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--cor-titulos);
+    color: #000000;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 0 0.1em;
+    transition: background .4s;
+}
+
+.sociais i:hover {
+    background: #393E46;
+    color: var(--cor-titulos); /* mesma cor do título */
+    
+}
+
+#portfolio{
+    background: var(--cor-fundo-secundaria);
+    margin: 50px auto;
+    padding: 2.5em;
+}
+
+.flexPortfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+.caixaPortfolio{
+    background: var(--cor-fundo-principal);
+    max-width: 375px;
+    height: auto;
+    box-shadow: 0 0 8px var(--cor-titulos);
+    border-radius: 10px;
+    transition: transform .3s;
+}
+
+.caixaPortfolio:hover{
+    transform: translateY(-8px);
+}
+
+.imagemPortfolio{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.artigosPortfolio{
+    padding: 1rem;
+}
+
+.artigosPortfolio h3{
+    padding-bottom: 0.45em;
+    font-size: 1.45rem;
+    color: var(--cor-titulos);
+    font-weight: bold;
+}
+
+.artigosPortfolio p{
+    padding-bottom: 1em;
+    flex: 1;
+    color: #d7d6d6;
+}
+
+.btnPortfolio{
+    display: inline-block;
+    padding: 0.75em;
+    background: var(--cor-titulos);
+    color: #000000;
+    border: 0;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: 400;
+    text-decoration: none;
+    transition: background .4s;
+    }
+
+    .btnPortfolio:hover{
+        background: var(--cor-fundo-secundaria);
+
+        color: var(--cor-titulos);
+    }
+
+#cards{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    padding: 1em;
+}
+
+#cards .titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.45em;
+}
+
+.flexCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card {
+    padding: 20px;
+    max-width: 350px;
+    height: auto;
+    box-shadow: 0 0 8px var(--cor-titulos);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform .3s;
+    }
+
+    .card:hover{
+        transform: translateY(-5px);
+    }
+
+    .icon i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffb22cab;
+    font-size: 2.5rem;
+    margin: 10px 0;
+    }
+
+    .content{
+        padding: 20px 0;
+    }
+
+    .card h3 {
+        margin-bottom: 1em;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .card p{
+        color: #d7d6d6d3;
+        font-size: 1rem;
+    }
+
+
+#formulario {
+    background:var(--cor-fundo-secundaria);
+    
+}
+
+.contacto{
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 2.5em;
+    width: 100%;
+}
+
+.contacto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--cor-titulos);
+}
+
+
+.contacto p {
+    flex: 1;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+
+.flexForm {
+    background: var(--cor-fundo-principal);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px #ffb22c8c;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--cor-fundo-secundaria);
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus, textarea:focus {
+    outline: none;   
+}
+
+textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+.btnEnviar button {
+    width: 100%;
+    background: var(--cor-titulos);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    font-weight: 500;
+}
+
+.btnEnviar button:hover {
+    background: var(--cor-tercearia);
+    color: var(--cor-titulos);
+}
+
+.btnEnviar button:active {
+    transform: scale(0.98);
+}
+
+#EntreEmcontato{
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+
+.tituloRodape{
+    color: var(--cor-titulos);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0.4em;
+}
+
+.texto {
+    font-size: 1.2rem;
+    
+}
+
+.btnEntreEmcontato{
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    margin-top: 1em;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    color: #000000;
+    border: 0;
+    border-radius: 1.5rem;
+    font-size: large;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+.btnEntreEmcontato:hover {
+    background: linear-gradient(90deg, #fcff9ed3 0%, #c67700e5 100%); /* mesma cor do título */
+}
+
+.rodape{
+    padding: 2.5em;
+    background: var(--cor-fundo-secundaria);
+    text-align: center;
+}
+
+.rodape span{
+    font-size: 1.2rem;
+}
+
+.sociaisRodape{
+    margin-top: 1.5em;
+}
+
+.sociaisRodape i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-titulos);
+    font-size: 1.9rem;
+    border-radius: 50%;
+    margin: 0 0.5em;
+    transition: background .4s;
+}
+
+
+
+@media (max-width: 1024px) {
+    #abrirMenu {
+        font-size: 1.5rem;
+        padding: 0 1em;
+        display: block;
+    }
+
+    .nav-links {
+        display: block ;
+        position: fixed;
+        background-color: rgb(19, 30, 48);
+        height: 100vh;
+        top: 0;
+        width: 0;
+        right: 0;
+        z-index: 1;
+        transition: .5s;
+    }
+
+    .nav-links li {
+    display: block;
+    padding: 0.5em;
+    }
+
+    #fecharMenu {
+        font-size: 1.5rem;
+        margin-bottom: 0.5em;
+        padding: 1em;
+        display: block;
+    }
+
+
+    .logo{
+    color: var(--cor-titulos);
+    font-size: 1rem;
+    }
+
+    .banner h1{
+    color: var(--cor-titulos);
+    margin: 0.6em 0;
+    line-height: 1.2em;
+    margin-top: 1em; 
+    }
+
+    .textoBanner {
+        max-width: 600px;
+    }
+
+    .imgBanner img{
+    border-radius: 1px;
+    object-fit: cover;
+    }
+
+    .btnCurriculo {
+    margin-top: 0.3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    body{
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    .banner{
+    min-height: 80vh;
+}
+
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    @keyframes flutuar {
+        0% { top: 0; }
+        100% { top: 18px; }
+    }
+
+    .btnCurriculo {
+        padding: em;
+    }
+
+    .boxes{
+    padding: 0.6em;
+    max-width: 93%;
+    height: auto;
+    }
+
+
+    .imagemSobre img{
+    max-width: 300px;
+}
+
+    #titulo-sobre span{
+    font-size: 1.8rem;
+    }
+
+    .sociais {
+    text-align: center;
+    padding-top: 1rem;
+    }
+
+
+    .sociais i:hover{
+        background: #ffb22ce5;
+        color: #000000;
+    }
+    .caixaPortfolio{
+    width: 100%;
+    height: auto;
+    
+}
+
+.flex{
+    gap: 1.5rem;
+}
+
+.sobreText p{
+    margin-bottom: em;
+}
+
+    .imagemPortfolio{
+    height: 200px;
+    }
+
+    .artigosPortfolio{
+    padding: 0.8em;
+    }
+
+    .flexCards{
+        gap: 25px;
+    }
+
+    .card {
+    padding: 0.5em;
+    height: auto;
+    box-shadow: 0 0 8px var(--cor-titulos);
+    }
+
+    .content{
+        padding: 1em 0;
+    }
+
+    .card h3 {
+        margin-bottom: 0.8em;
+    }
+
+    #cards .titulo {
+    font-size: 1.5rem;
+    }
+
+    .contacto h2 {
+    font-size: 1.8rem;
+}
+
+    input, textarea {
+    padding: 0.30rem;
+    }
+
+    textarea {
+    min-height: 90px;
+    resize: none;
+    }
+
+    .btnEnviar button {
+    padding: 0.40rem 1.5rem;
+    color: #000000;
+    }
+
+    .tituloRodape{
+    color: var(--cor-titulos);
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0.5em;
+    }
+
+    .texto{
+    font-size: 1rem;
+    }
+
+    .rodape span{
+    font-size: 0.9rem;
+    }
+
+
+
+}
