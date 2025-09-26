@@ -607,6 +607,15 @@ textarea {
     .btnCurriculo {
     margin-top: 0.3em;
     }
+
+    .btnContacto{
+    padding: 8px 15px;
+    width: 90%;
+    text-align: center;
+    background: var(--cor-titulos);
+    border-radius: 2rem;
+    font-size: medium;
+    }
 }
 
 @media (max-width: 768px) {
@@ -746,7 +755,5 @@ textarea {
     .rodape span{
     font-size: 0.9rem;
     }
-
-
 
 }
