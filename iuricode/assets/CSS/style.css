@@ -79,7 +79,6 @@ ul li a{
     margin: 20px;
     color: #ffffff;
     font-family: 'arial' Helvetica, sans-serif;
-    font-weight: bold;
     transition: color .3s;
 }
 
@@ -583,7 +582,6 @@ textarea {
         padding: 1em;
         display: block;
     }
-
 
     .logo{
     color: var(--cor-titulos);
