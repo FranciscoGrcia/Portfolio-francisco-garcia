@@ -614,6 +614,11 @@ textarea {
     border-radius: 2rem;
     font-size: medium;
     }
+
+    .btnContacto:hover{
+        color: #000000;
+        background: linear-gradient(90deg, #fcff9ed3 0%, #c67700e5 100%);
+    }
 }
 
 @media (max-width: 768px) {
