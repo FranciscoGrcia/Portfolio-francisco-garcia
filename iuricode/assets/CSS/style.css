@@ -685,8 +685,10 @@ textarea {
     font-size: 1.8rem;
     }
 
-    .sociais i{
+    .sociais {
     text-align: center;
+    text-decoration: none;
+    list-style: none;
     }
 
 
