@@ -6,7 +6,7 @@
 
 :root{
     --cor-fundo-principal: #0b121d;
-    --cor-fundo-secundaria: rgba(19, 30, 48, 0.349);
+    --cor-fundo-secundaria: #0e1624;
     --cor-titulos: #ffb22c;
     --cor-tercearia: #393E46;
     --fonte-pricipal: Arial, Helvetica, sans-serif; 
@@ -21,10 +21,6 @@ body{
     line-height: 1.6;
 }
 
-main{
-    margin-top: 70px;
-    padding: 20px;
-}
 
 #abrirMenu, #fecharMenu {
     display: none;
@@ -50,7 +46,7 @@ main{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    background: #0b121d;
+    background: #0e1624;
     height: 80px;
     box-shadow: 0  1px #ffc8003b;
     position: fixed;
@@ -97,7 +93,7 @@ ul li a:hover{
 }
 
 
-.banner{
+#banner{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,18 +109,18 @@ ul li a:hover{
     flex: 1;
 }
 
-.banner h1{
+#banner h1{
     color: var(--cor-titulos);
     font-size: 2.5rem;
     margin-bottom: 20px; 
 }
 
-.banner h1 span{
+#banner h1 span{
     color: #ffffff;
     font-size: large;
 }
 
-.banner p{
+#banner p{
     margin: 1.2em 0;
 }
 
