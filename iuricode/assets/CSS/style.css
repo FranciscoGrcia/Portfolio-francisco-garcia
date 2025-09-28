@@ -664,6 +664,10 @@ textarea {
     height: auto;
     }
 
+    section#sobre{
+    height: 1000px;
+}
+
 
     .imagemSobre img{
     max-width: 100%;
@@ -673,7 +677,6 @@ textarea {
 
 .sobreText p{
     text-align: justify;
-    
 }
 
     #titulo-sobre span{
