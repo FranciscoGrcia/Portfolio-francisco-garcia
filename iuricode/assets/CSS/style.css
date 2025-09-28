@@ -558,6 +558,9 @@ textarea {
     margin: 0 0.5em;
 }
 
+.sociaisRodape a{
+    text-decoration: none;
+}
 
 @media (max-width: 1024px) {
     #abrirMenu {
