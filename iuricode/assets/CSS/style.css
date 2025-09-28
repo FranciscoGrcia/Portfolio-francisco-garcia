@@ -531,7 +531,7 @@ textarea {
 }
 
 .rodape span{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .sociaisRodape{
@@ -544,11 +544,8 @@ textarea {
     align-items: center;
     color: var(--cor-titulos);
     font-size: 1.9rem;
-    border-radius: 50%;
     margin: 0 0.5em;
-    transition: background .4s;
 }
-
 
 
 @media (max-width: 1024px) {
