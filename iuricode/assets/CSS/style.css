@@ -664,15 +664,16 @@ textarea {
     height: auto;
     }
 
-    section#sobre{
-    padding: 0.5em;
-}
-
 
     .imagemSobre img{
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.sobreText p{
+    text-align: justify;
+    padding: 0;
 }
 
     #titulo-sobre span{
