@@ -664,6 +664,10 @@ textarea {
     height: auto;
     }
 
+    section#sobre{
+    padding: 0.5em;
+}
+
 
     .imagemSobre img{
     max-width: 300px;
