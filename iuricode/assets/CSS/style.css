@@ -236,10 +236,9 @@ section#sobre{
 }
 
 .imagemSobre img{
-    max-width: 350px;
+    max-width: 400px;
     margin: 0 auto;
-    border-radius: 12px;
-    object-fit: cover;
+    border-radius: 0.5rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
@@ -686,15 +685,11 @@ textarea {
     width: 100%;
     height: auto;
     
-}
+    }
 
-.flex{
+    .flex{
     gap: 1.5rem;
-}
-
-.sobreText p{
-    margin-bottom: em;
-}
+    }
 
     .imagemPortfolio{
     height: 200px;
