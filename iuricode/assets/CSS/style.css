@@ -639,7 +639,11 @@ textarea {
 @media (max-width: 768px) {
     .banner {
         flex-direction: column-reverse;
-        gap: 10px;
+        gap: 10px;    
+    }
+
+    section#sobre{
+    height: 800px;
     }
 
 }
