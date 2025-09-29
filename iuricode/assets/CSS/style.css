@@ -649,7 +649,7 @@ textarea {
     }
 
     header{
-        min-height: 100vh;
+        height: 1000px;
     }
 
     .banner{
