@@ -270,7 +270,7 @@ section#sobre{
     color: #000000;
     font-size: 1.5rem;
     border-radius: 50%;
-    margin: 0 0.1em;
+    margin: 0 0.2em;
     transition: background .4s;
 }
 
@@ -693,10 +693,6 @@ textarea {
     text-align: center;
     text-decoration: none;
     list-style: none;
-    }
-
-    .sociais i{
-        margin: 0 0.2em;
     }
 
 
