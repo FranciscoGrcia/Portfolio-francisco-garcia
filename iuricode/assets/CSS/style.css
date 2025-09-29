@@ -695,6 +695,10 @@ textarea {
     list-style: none;
     }
 
+    .sociais i{
+        margin: 0 0.3em;
+    }
+
 
     .sociais i:hover{
         background: #ffb22ce5;
