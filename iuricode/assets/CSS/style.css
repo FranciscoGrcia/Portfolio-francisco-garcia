@@ -628,11 +628,6 @@ textarea {
         color: #000000;
         background: linear-gradient(90deg, #fcff9ed3 0%, #c67700e5 100%);
     }
-
-    section#sobre{
-    height: 800px;
-    }
-
 }
 
 
@@ -641,12 +636,8 @@ textarea {
         flex-direction: column-reverse;
         gap: 10px;    
     }
-
-    section#sobre{
-    height: 800px;
-    }
-
 }
+
 
 @media (max-width: 650px) {
 
