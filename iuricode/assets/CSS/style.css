@@ -673,11 +673,9 @@ textarea {
     }
 
 
-    .flex{
-    gap: 20px;
-}
-
     .imagemSobre img{
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
     }
 
