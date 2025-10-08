@@ -661,6 +661,10 @@ textarea {
         font-size: 2rem;
     }
 
+    .btnCurriculo{
+    text-align: center;
+    }
+
     @keyframes flutuar {
         0% { top: 0; }
         100% { top: 18px; }
