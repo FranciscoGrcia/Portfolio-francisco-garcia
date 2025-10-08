@@ -675,6 +675,7 @@ textarea {
     }
 
     section#sobre{
+    text-align: center;
     padding: 1rem 1.2rem 0 1.2rem;
 }
 
@@ -684,6 +685,12 @@ textarea {
     object-fit: cover;
     }
 
+    .sobreText p{
+    line-height: 1.6;
+    padding: 0.40em 0;
+    margin-bottom: 1.5em;
+    text-align: justify;
+}
 
 
     #titulo-sobre span{
@@ -704,6 +711,7 @@ textarea {
     .caixaPortfolio{
     width: 100%;
     height: auto;
+    max-width: 375px;
     
     }
 
