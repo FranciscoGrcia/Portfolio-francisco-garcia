@@ -328,6 +328,7 @@ section#sobre{
     font-size: 1.45rem;
     color: var(--cor-titulos);
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .artigosPortfolio p{
@@ -653,6 +654,7 @@ textarea {
     }
 
     .banner{
+        text-align: center;
         margin: 150px auto;
     }
 
