@@ -138,10 +138,6 @@ ul li a:hover{
     transition: background .4s;
 }
 
-#btnCurriculo{
-    margin-left: ;
-}
-
 .btnContacto:hover{
     background: #393E46;
     color: #ffb22c;
@@ -686,7 +682,7 @@ textarea {
         margin-top: 0.3rem;
         margin-left: 1rem;
         padding: 8px 20px;
-        text-align: center;
+        font-size: medium;
     }
 
     @keyframes flutuar {
