@@ -135,18 +135,26 @@ ul li a:hover{
     border-radius: 6px;
     font-size: large;
     font-weight: 400;
-    text-decoration: none;
     transition: background .4s;
 }
 
-.btnCurriculo:hover {
-    background: #393E46; /* mesma cor do título */
-    color: var(--cor-titulos);
+#btnCurriculo{
+    margin-left: ;
 }
 
 .btnContacto:hover{
     background: #393E46;
-    color: var(--cor-titulos);
+    color: #ffb22c;
+}
+
+.btnCurriculo:hover {
+    background: #393E46;
+    color: #c67700;
+}
+
+.btnCurriculo a{
+    text-decoration: none;
+    color: #000000;
 }
 
 .imgBanner img{
@@ -650,19 +658,35 @@ textarea {
     }
 
     header{
-        height: 755px;
+        height: 720px;
     }
 
     .banner{
         margin: 150px auto;
     }
 
-    .banner h1 {
-        font-size: 2rem;
+    .imgBanner img{
+    border-radius: 6px;
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.banner p{
+    padding: 0 1rem;
+    margin: 0.80rem 0;
+    font-size: 1rem;
     }
 
-    .btnCurriculo{
-    text-align: center;
+    .banner h1 {
+        font-size: 1.9rem;
+        padding: 0 1rem;
+    }
+
+    #btnCurriculo {
+        margin-top: 0.3rem;
+        margin-left: 1rem;
+        padding: 8px 20px;
+        text-align: center;
     }
 
     @keyframes flutuar {
