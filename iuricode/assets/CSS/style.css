@@ -678,7 +678,8 @@ textarea {
     }
 
     .btnCurriculo{
-        padding: 8px 15px;
+        margin-top: 1rem;
+        padding: 10px 15px;
         font-size: medium;
     }
 
