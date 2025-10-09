@@ -665,6 +665,17 @@ textarea {
     border-radius: 50%;
     }
 
+    @keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 18px;
+
+    }
+}
+
     .banner h1 {
         font-size: 1.9rem;
         padding: 0 0.5rem;
