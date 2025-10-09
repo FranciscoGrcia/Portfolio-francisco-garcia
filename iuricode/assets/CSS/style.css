@@ -302,7 +302,6 @@ section#sobre{
     align-items: center;
     flex-wrap: wrap;
     gap: 25px;
-
 }
 
 .caixaPortfolio{
@@ -354,13 +353,12 @@ section#sobre{
     font-weight: 400;
     text-decoration: none;
     transition: background .4s;
-    }
+}
 
-    .btnPortfolio:hover{
-        background: var(--cor-fundo-secundaria);
-
-        color: var(--cor-titulos);
-    }
+.btnPortfolio:hover{
+    background: var(--cor-fundo-secundaria);
+    color: var(--cor-titulos);
+}
 
 #cards{
     display: grid;
@@ -392,35 +390,35 @@ section#sobre{
     border-radius: 10px;
     text-align: center;
     transition: transform .3s;
-    }
+}
 
-    .card:hover{
-        transform: translateY(-5px);
-    }
+.card:hover{
+    transform: translateY(-5px);
+}
 
-    .icon i{
+.icon i{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     color: #ffb22cab;
     font-size: 2.5rem;
     margin: 10px 0;
-    }
+}
 
-    .content{
-        padding: 20px 0;
-    }
+.content{
+    padding: 20px 0;
+}
 
-    .card h3 {
-        margin-bottom: 1em;
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
+.card h3 {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
-    .card p{
-        color: #d7d6d6d3;
-        font-size: 1rem;
-    }
+.card p{
+    color: #d7d6d6d3;
+    font-size: 1rem;
+}
 
 
 #formulario {
@@ -676,6 +674,7 @@ textarea {
 
     .banner h1 {
         font-size: 1.8rem;
+        padding: 0 1rem;
     }
 
     .btnCurriculo{
