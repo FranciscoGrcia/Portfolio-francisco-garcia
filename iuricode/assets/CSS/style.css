@@ -127,7 +127,7 @@ ul li a:hover{
 .btnCurriculo,
 .btnContacto {
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 15px;
     margin-top: 0.5em;
     background: var(--cor-titulos);
     color: #000000;
@@ -136,21 +136,22 @@ ul li a:hover{
     font-size: large;
     font-weight: 400;
     transition: background .4s;
-}
-
-.btnContacto:hover{
-    background: #393E46;
-    color: #ffb22c;
-}
-
-.btnCurriculo:hover {
-    background: #393E46;
-    color: #c67700;
+    text-decoration: none;
 }
 
 .btnCurriculo a{
     text-decoration: none;
     color: #000000;
+}
+
+.btnContacto:hover{
+    background: #393E46;
+    color: var(--cor-titulos);
+}
+
+.btnCurriculo:hover {
+    background: #393E46;
+    color: var(--cor-titulos);
 }
 
 .imgBanner img{
@@ -617,10 +618,6 @@ textarea {
     object-fit: cover;
     }
 
-    .btnCurriculo {
-    margin-top: 0.3em;
-    }
-
     .btnContacto{
     padding: 8px 25px;
     background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
@@ -665,9 +662,9 @@ textarea {
     border-radius: 6px;
     max-width: 300px;
     object-fit: cover;
-}
+    }
 
-.banner p{
+    .banner p{
     padding: 0 1rem;
     margin: 0.80rem 0;
     font-size: 1rem;
@@ -678,11 +675,12 @@ textarea {
         padding: 0 1rem;
     }
 
-    #btnCurriculo{
-        margin-top: 0.3rem;
+    .btnCurriculo{
+        display: flex;
+        justify-content: center;
         margin-left: 1rem;
         padding: 8px 20px;
-        font-size: medium;
+        font-size: large;
     }
 
     @keyframes flutuar {
