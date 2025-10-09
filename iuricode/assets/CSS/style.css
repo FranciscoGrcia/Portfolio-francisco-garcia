@@ -618,7 +618,7 @@ textarea {
 
     .btnContacto{
     padding: 8px 25px;
-    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    background: var(--cor-titulos);
     border-radius: 6px;
     font-size: medium;
     }
@@ -633,7 +633,7 @@ textarea {
 @media (max-width: 768px) {
     .banner {
         flex-direction: column-reverse;
-        gap: 10px;    
+        gap: 5px;    
     }
 }
 
@@ -659,21 +659,20 @@ textarea {
 
     .imgBanner img{
     position: static;
-    border-radius: 6px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    }
+
+    .banner h1 {
+        font-size: 1.9rem;
+        padding: 0 0.5rem;
     }
 
     .banner p{
     padding: 0 1rem;
     margin: 0.80rem 0;
     font-style: italic;
-    }
-
-    .banner h1 {
-        font-size: 1.9rem;
-        padding: 0 0.5rem;
     }
 
     .btnCurriculo{
@@ -687,12 +686,6 @@ textarea {
         color: #000000;
     }
 
-    @keyframes flutuar {
-        0% { top: 0; }
-        100% { top: 18px; }
-    }
-
-
     .boxes{
     padding: 0.6em;
     max-width: 90%;
@@ -700,8 +693,8 @@ textarea {
     }
 
     section#sobre{
-    padding: 1rem 1.2rem 0 1.2rem;
-}
+    padding: 1.2rem 1.2rem 0 1.2rem;
+    }
 
     .imagemSobre img{
     max-width: 100%;
@@ -714,7 +707,7 @@ textarea {
     padding: 0.40em 0;
     margin-bottom: 1.5em;
     text-align: justify;
-}
+    }
 
 
     #titulo-sobre span{
@@ -732,21 +725,15 @@ textarea {
         background: #ffb22ce5;
         color: #000000;
     }
+    
     .caixaPortfolio{
     width: 100%;
     height: auto;
-    max-width: 375px;
-    
-    }
-
-    .flex{
-    gap: 1.5rem;
     }
 
     .imagemPortfolio{
     height: 200px;
     }
-
 
     .flexCards{
         gap: 25px;
@@ -772,7 +759,7 @@ textarea {
 
     .contacto h2 {
     font-size: 1.8rem;
-}
+    }
 
     input, textarea {
     padding: 0.40rem;
