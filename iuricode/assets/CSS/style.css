@@ -706,7 +706,8 @@ textarea {
 
     .tituloBox{
     margin: 10px 0;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    padding: 0 1rem;
     }
 
     .boxes p{
