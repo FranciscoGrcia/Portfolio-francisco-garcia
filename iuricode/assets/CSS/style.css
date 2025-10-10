@@ -705,13 +705,12 @@ textarea {
     }
 
     .tituloBox{
-    padding: 0 0.2rem;
     margin: 10px 0;
     font-size: 1.5rem;
     }
 
     .boxes p{
-    padding: 5px 0;
+    padding: 10px 0;
     }
 
     section#sobre{
