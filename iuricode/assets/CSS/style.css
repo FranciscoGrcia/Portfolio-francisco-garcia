@@ -197,7 +197,7 @@ ul li a:hover{
     background: var(--cor-fundo-principal);
     padding: 0.8em;
     max-width: 350px;
-    height: 250px;
+    height: 270px;
     box-shadow: 0 0 8px var(--cor-titulos);
     border-radius: 10px;
     transition: transform .3s;
@@ -217,12 +217,12 @@ ul li a:hover{
 .tituloBox{
     font-size: 1.4rem;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .boxes p{
-    padding: 5px 0;
     color: #d7d6d6;
+
 }
 
 section#sobre{
@@ -706,7 +706,6 @@ textarea {
 
     .tituloBox{
     margin: 5px 0;
-    font-size: 1.4rem;
     padding: 0 1rem;
     }
 
