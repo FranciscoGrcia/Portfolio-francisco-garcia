@@ -124,8 +124,7 @@ ul li a:hover{
     font-size: 1rem;
 }
 
-.btnCurriculo,
-.btnContacto {
+.btnCurriculo{
     display: inline-block;
     padding: 10px 15px;
     margin-top: 0.5em;
@@ -138,6 +137,18 @@ ul li a:hover{
     transition: background .4s;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.btnContacto {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 0.5em;
+    background: var(--cor-titulos);
+    color: #000000;
+    border: 0;
+    border-radius: 6px;
+    font-size: large;
+    font-weight: bold;
 }
 
 .btnCurriculo a{
@@ -742,7 +753,6 @@ textarea {
     text-decoration: none;
     list-style: none;
     }
-
 
     .sociais i:hover{
         background: #ffb22ce5;
