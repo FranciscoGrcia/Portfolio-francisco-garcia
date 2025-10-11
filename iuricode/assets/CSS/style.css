@@ -133,7 +133,6 @@ ul li a:hover{
     border: 0;
     border-radius: 6px;
     font-size: large;
-    font-weight: 530;
     text-decoration: none;
     transition: background .4s;
 }
@@ -147,7 +146,6 @@ ul li a:hover{
     border: 0;
     border-radius: 6px;
     font-size: large;
-    font-weight: bold;
 }
 
 .btnCurriculo a{
@@ -702,6 +700,7 @@ textarea {
     .btnCurriculo{
         background: var(--cor-titulos);
         padding: 10px 20px;
+        font-size: medium;
     }
 
     .btnCurriculo:hover{
