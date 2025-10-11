@@ -134,9 +134,9 @@ ul li a:hover{
     border-radius: 6px;
     font-size: medium;
     font-weight: bold;
-    transition: background .4s;
     text-decoration: none;
     text-transform: uppercase;
+    transition: background .4s;
 }
 
 .btnContacto {
