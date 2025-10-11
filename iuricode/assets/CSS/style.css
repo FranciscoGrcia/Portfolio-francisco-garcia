@@ -132,10 +132,9 @@ ul li a:hover{
     color: #000000;
     border: 0;
     border-radius: 6px;
-    font-size: medium;
-    font-weight: bold;
+    font-size: large;
+    font-weight: 530;
     text-decoration: none;
-    text-transform: uppercase;
     transition: background .4s;
 }
 
@@ -703,7 +702,6 @@ textarea {
     .btnCurriculo{
         background: var(--cor-titulos);
         padding: 10px 20px;
-        font-size: large;
     }
 
     .btnCurriculo:hover{
