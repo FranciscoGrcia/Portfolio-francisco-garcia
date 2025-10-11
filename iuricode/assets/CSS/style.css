@@ -134,7 +134,7 @@ ul li a:hover{
     border: 0;
     border-radius: 6px;
     font-size: large;
-    font-weight: 600;
+    
     transition: background .4s;
     text-decoration: none;
     text-transform: uppercase;
