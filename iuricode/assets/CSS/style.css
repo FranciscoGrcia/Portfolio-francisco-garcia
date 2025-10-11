@@ -337,7 +337,7 @@ section#sobre{
 }
 
 .artigosPortfolio p{
-    padding-bottom: 1em;
+    padding-bottom: 0.6rem;
     flex: 1;
     color: #d7d6d6;
 }
@@ -759,7 +759,8 @@ textarea {
 
     .artigosPortfolio p{
     font-size: 0.96rem;
-}
+    }
+
 
     .flexCards{
         gap: 25px;
