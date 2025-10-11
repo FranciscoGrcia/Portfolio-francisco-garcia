@@ -132,7 +132,7 @@ ul li a:hover{
     color: #000000;
     border: 0;
     border-radius: 6px;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     transition: background .4s;
     text-decoration: none;
