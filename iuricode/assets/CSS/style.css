@@ -762,10 +762,6 @@ textarea {
     }
 
 
-    .flexCards{
-        gap: 30px;
-    }
-
     .card {
     padding: 0.5rem;
     height: auto;
