@@ -189,7 +189,7 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     margin: auto;
-    gap: 25px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -302,7 +302,7 @@ section#sobre{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
 }
 
 .caixaPortfolio{
