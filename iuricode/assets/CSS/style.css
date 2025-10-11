@@ -198,7 +198,7 @@ ul li a:hover{
     padding: 0.8em;
     max-width: 350px;
     height: 270px;
-    box-shadow: 0 0 8px var(--cor-titulos);
+    box-shadow: 0 3px 8px var(--cor-titulos);
     border-radius: 10px;
     transition: transform .3s;
 }
@@ -309,7 +309,7 @@ section#sobre{
     background: var(--cor-fundo-principal);
     max-width: 375px;
     height: auto;
-    box-shadow: 0 0 8px var(--cor-titulos);
+    box-shadow: 0 3px 8px var(--cor-titulos);
     border-radius: 10px;
     transition: transform .3s;
 }
@@ -387,7 +387,7 @@ section#sobre{
     padding: 20px;
     max-width: 350px;
     height: auto;
-    box-shadow: 0 0 8px var(--cor-titulos);
+    box-shadow: 0 3px 8px var(--cor-titulos);
     border-radius: 10px;
     text-align: center;
     transition: transform .3s;
@@ -452,7 +452,7 @@ section#sobre{
     background: var(--cor-fundo-principal);
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 2px 2px #ffb22c8c;
+    box-shadow: 0 2px 8px #ffb22c8c;
 }
 
 
@@ -767,8 +767,8 @@ textarea {
     }
 
     .card {
+    padding: 0.5rem;
     height: auto;
-    box-shadow: 0 0 8px var(--cor-titulos);
     }
 
     .content{
