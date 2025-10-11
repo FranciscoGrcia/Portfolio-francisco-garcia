@@ -137,6 +137,7 @@ ul li a:hover{
     font-weight: 600;
     transition: background .4s;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .btnCurriculo a{
