@@ -757,6 +757,10 @@ textarea {
     height: 200px;
     }
 
+    .artigosPortfolio p{
+    font-size: 0.9rem;
+}
+
     .flexCards{
         gap: 25px;
     }
