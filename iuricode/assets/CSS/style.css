@@ -452,7 +452,7 @@ section#sobre{
     background: var(--cor-fundo-principal);
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 2px 8px #ffb22c8c;
+    box-shadow: 0 3px 8px #ffb22c8c;
 }
 
 
