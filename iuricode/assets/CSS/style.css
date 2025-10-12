@@ -48,7 +48,7 @@ body{
     margin: 0 auto;
     background: #0e1624;
     height: 80px;
-    box-shadow: 0 1px 10px #ffb22cde;
+    box-shadow: 0 1px 12px #ffb22ce5;
     position: fixed;
     top: 0;
     left: 0;
@@ -665,7 +665,7 @@ textarea {
 
     
     .menu{
-    box-shadow: 0 1px 10px #ffb22ce3;
+    box-shadow: 0 1px 10px #ffb22c;
     }
 
     .banner{
