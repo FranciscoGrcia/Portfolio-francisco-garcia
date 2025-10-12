@@ -258,8 +258,7 @@ section#sobre{
 }
 
 .imagemSobre img{
-    height:  350px;
-    object-fit: cover;
+    width: 400px;
     border-radius: 10px;
     margin: 0 auto;
 }
