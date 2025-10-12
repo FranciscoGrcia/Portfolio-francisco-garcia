@@ -48,7 +48,7 @@ body{
     margin: 0 auto;
     background: #0e1624;
     height: 80px;
-    box-shadow: 0 1px 12px #ffb22ce5;
+    box-shadow: 0 1px 15px #ffb22cb6;
     position: fixed;
     top: 0;
     left: 0;
@@ -200,6 +200,7 @@ ul li a:hover{
     margin: auto;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .boxes{
@@ -312,6 +313,7 @@ section#sobre{
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+    margin-bottom: 2rem;
 }
 
 .caixaPortfolio{
@@ -462,6 +464,7 @@ section#sobre{
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 3px 8px #ffb22c8c;
+    margin-bottom: 1rem;
 }
 
 
