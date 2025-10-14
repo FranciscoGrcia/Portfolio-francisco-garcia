@@ -708,6 +708,7 @@ textarea {
         background: rgb(230, 164, 36);
         padding: 15px;
         font-size: medium;
+        font-weight: bold;
     }
 
     .btnCurriculo:hover{
