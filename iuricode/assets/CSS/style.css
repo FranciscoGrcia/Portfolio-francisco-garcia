@@ -711,11 +711,7 @@ textarea {
         font-weight: bold;
     }
 
-    .btnCurriculo:hover{
-        background: linear-gradient(90deg, #fcff9ed3 0%, #c67700e5 100%);
-        color: #000000;
-    }
-
+    
     .boxes{
     padding: 0.6em;
     max-width: 90%;
