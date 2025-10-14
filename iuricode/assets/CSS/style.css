@@ -705,7 +705,7 @@ textarea {
     }
 
     .btnCurriculo{
-        background: linear-gradient(30deg, #fcff9ed3 0%, #c67700e5 100%);
+        background: linear-gradient(90deg, #fcff9ed3 90%, #c67700e5 100%);
         padding: 15px;
         font-size: medium;
     }
