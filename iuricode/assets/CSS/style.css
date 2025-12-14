@@ -13,6 +13,10 @@
 ;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: var(--fonte-pricipal);
     background: var(--cor-fundo-principal);
@@ -20,7 +24,6 @@ body{
     margin: auto;
     line-height: 1.6;
 }
-
 
 #abrirMenu, #fecharMenu {
     display: none;
